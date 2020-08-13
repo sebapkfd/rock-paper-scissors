@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <button id="rock">Rock</button>
-        <button id="paper">Paper</button>
-        <button id="scissors">Scissors</button>
+    <div class="scoreboard">
+        <h1>Rock Paper Scissors</h1>
+        
+        <div class="result">
+            <!-- detail will be to divs, User vs Pc -->
+            <div class="detail"></div> 
+            <div class="score"></div>
+        </div>
+        <div class="options">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <div class="final"></div>
     </div>
-    <div class="container-result" style="border: solid black; height: 70px; width: 230px;"></div>
-    <div class="container-final" style="border: solid blue; height: 70px; width: 230px;"></div>
 </body>
-<script src="game.js"></script>
+<script src="app.js"></script>
 </html>
