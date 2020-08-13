@@ -50,7 +50,8 @@ function refreshScore(score){
 
 function cleanResults(){
     containerFinal.removeChild(containerFinal.firstChild);
-    containerResult.removeChild(containerResult.firstChild);
+    containerScore.removeChild(containerScore.firstChild);
+    containerDetail.removeChild(containerDetail.firstChild);
     roundsPlayed = 1;
     lostGames = 0;
     tiedGames = 0;
