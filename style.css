@@ -16,6 +16,10 @@ body{
     border-radius: 5px;
 }
 
+h1{
+    font-size: 35px;
+}
+
 .score{
     /* border: solid red; */
     height: 30px;
@@ -55,13 +59,14 @@ body{
 }
 
 button{
-    height: 30px;
+    height: 40px;
     border: none;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     margin-top: 25px;
     transition-duration: 0.2s;
     outline: none;
+    font-size: 16px;
 }
 
 button:hover{
