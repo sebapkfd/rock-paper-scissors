@@ -7,6 +7,6 @@ Small project, you can play games of five rounds of Rock-Paper-Scissors. Built f
 
 ### Built with: 
 * JavaScript
-* CSS3
-* HTML5
+* CSS
+* HTML
 * Git
